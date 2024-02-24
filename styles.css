@@ -1,0 +1,200 @@
+body{
+    min-height: 100vh;
+    font-family: Karla;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 640px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 3px 3px 30px hsl(0, 1%, 80%);
+    border-radius: 10px;
+}
+
+.up-section{
+    padding: 42px 50px 20px 40px;
+}
+
+.main-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 28px;
+}
+
+.sub-title{
+    font-size: 1.2rem;
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 12px;
+}
+
+.main-details-1, .main-details-2{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.6;
+}
+
+.down-section{
+    display: flex;
+    margin-top: 20px;
+}
+
+.left-side{
+    width: 320px;
+    padding: 42px 40px 40px 40px;
+    box-sizing: border-box;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 10px;
+}
+
+.right-side{
+    width: 320px;
+    padding: 42px 40px 36px 40px;
+    box-sizing: border-box;
+    background-color: hsla(179, 62%, 43%, 0.85);
+    border-bottom-right-radius: 10px;
+}
+
+.left-title{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    padding-bottom: 22px;
+}
+
+.value{
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.dollar{
+    color: hsl(203, 44%, 93%);
+    font-size: 1.9rem;
+    font-weight: 700;
+    padding-right: 12px;
+}
+
+.month{
+    color: hsla(203, 44%, 93%, 0.6);
+    padding-top: 8px;
+}
+
+.left-details-2{
+    color: hsl(204, 43%, 93%);
+    padding-bottom: 32px;
+}
+
+button{
+    background-color: hsl(71, 73%, 54%);
+    border-style: none;
+    width: 240px;
+    height: 48px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px hsla(0, 0%, 0%, 0.148);
+}
+
+.button-text{
+    color: hsl(204, 43%, 93%);
+    font-size: 0.95rem;
+    font-weight: 700;
+    text-shadow: -1px -1px 1px hsla(0, 0%, 0%, 0.060),1px 1px 1px hsla(0, 0%, 0%, 0.060);
+}
+
+.right-title{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.1rem;
+    padding-bottom: 20px;
+}
+
+ul{
+    color: hsl(204, 43%, 93%);
+    font-size: 0.85rem;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+@media (max-width:567px){
+    html{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body{
+        width: 375px;
+    }
+
+    .main-container{
+        width: 375px;
+    }
+
+    .up-section{
+        padding: 42px 30px 18px 30px;
+    }
+
+    .sub-title{
+        padding-top: 12px;
+        padding-bottom: 22px;
+    }
+
+    .main-details-1, .main-details-2{
+        line-height: 2;
+    }
+
+    .down-section{
+        width: 375px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-side{
+        width: 375px;
+        border-bottom-left-radius: 0;
+        padding: 36px 30px 30px 30px;
+    }
+   
+    .left-title{
+        font-size: 1.4rem;
+        padding-bottom: 30px;
+    }
+
+    .dollar{
+        font-size: 2.5rem;
+    }
+
+    .month{
+        font-size: 1.2rem;
+    }
+
+    .left-details-2{
+        font-size: 1.15rem;
+        padding: 4px 0 40px 0;
+    }
+
+    button{
+        width: 310px;
+        height: 60px;
+    }
+
+    .button-text{
+        font-size: 1.1rem;
+    }
+
+    .right-side{
+        width: 375px;
+        border-bottom-left-radius: 10px;
+    }
+
+    .right-title{
+        font-size: 1.5rem;
+    }
+
+    ul{
+        font-size: 1.15rem;
+        line-height: 1.4;
+    }
+}
+
+
